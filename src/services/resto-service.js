@@ -7,5 +7,5 @@ export default class RestoService {
             .then(data => console.log(data));
     }
 
-
+    
 }
