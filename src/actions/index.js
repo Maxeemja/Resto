@@ -17,20 +17,47 @@ const menuError = () => {
 const addedToCart = (id) => {
     return {
         type: 'ITEM_ADD_TO_CART',
-        payload: id
+        id: id
     };
 }
 const deleteFromCart = (id) => {
     return {
         type: 'ITEM_DELETED_FROM_CART',
-        payload: id
+        id: id
     };
 }
+const decreaseQtty = (id) =>{
+    return {
+        type: 'DECREASE_QTTY',
+        id: id
+    }
+}
+const increaseQtty = (id) =>{
+    return {
+        type: 'INCREASE_QTTY',
+        id: id
+    }
+}
+const clearCart = () => {
+    return {
+        type: 'CLEAR_CART'
+    }
+};
+const renderClBtn = () => {
+    return {
+        type: 'RENDER_CLEAR_BUTTON'
+    }
+};
+
 
 export {
     menuLoaded,
     menuRequested,
     menuError,
     addedToCart,
-    deleteFromCart
+    deleteFromCart,
+    decreaseQtty,
+    increaseQtty,
+    clearCart,
+    renderClBtn
 };

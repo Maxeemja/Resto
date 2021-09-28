@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,WAAO,AAAC,CACJ,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,UAAU,CAC3B,WAAW,CAAE,UAAU,CACvB,SAAS,CAAE,IAAI,CAClB",
+    "sources": [
+        "../menu-list/menu-list.scss"
+    ],
+    "names": [],
+    "file": "menu-list.min.css"
+}
